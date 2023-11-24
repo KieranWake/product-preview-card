@@ -65,9 +65,19 @@ p {
     margin-left: 13px;
 }
 
-h1:nth-child(5) {
+h1:nth-child(4) {
     color: red;
     font-size: 32px;
+    font-weight: bold;
+}
+
+span {
+    font-family: 'Montserrat-Light';
+    font-weight: normal;
+    color: black;
+    font-size: 13px;
+    margin: 18px;
+    text-decoration: line-through;
 }
 
 
