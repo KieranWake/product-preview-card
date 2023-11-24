@@ -83,6 +83,12 @@ span {
     top: -4px;
 }
 
+.button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 
 
 
