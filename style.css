@@ -20,7 +20,6 @@
 
 }
 
-
 * {
     margin: 0;
     padding: 0;
@@ -50,6 +49,7 @@ h3 {
     font-family: 'Montserrat-Light';
     font-size: 13px;
     margin: 15px;
+    color: rosybrown;
 }
 
 h1 {
@@ -60,25 +60,30 @@ h1 {
 
 p {
     font-family: 'Montserrat-Regular'; 
+    color: rosybrown;
     font-size: 13px;
     margin: 12px;
     margin-left: 13px;
 }
 
 h1:nth-child(4) {
-    color: red;
+    color: #E75480;
     font-size: 32px;
     font-weight: bold;
 }
 
 span {
+    position: relative;
     font-family: 'Montserrat-Light';
     font-weight: normal;
-    color: black;
+    color: rosybrown;
     font-size: 13px;
     margin: 18px;
     text-decoration: line-through;
+    top: -4px;
 }
+
+
 
 
 
