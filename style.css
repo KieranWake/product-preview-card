@@ -17,7 +17,13 @@
     src: url('fonts-1/Montserrat-Regular.ttf');
     font-style: bold;
     font-weight: bold;
+}
 
+@font-face {
+    font-family: 'Montserrat-Bold';
+    src: url('fonts-1/Montserrat-Bold.ttf');
+    font-style: bold;
+    font-weight: bold;
 }
 
 * {
@@ -87,7 +93,32 @@ span {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: 15px;
 }
+
+button {
+    display: flex;
+    justify-content: center;
+    font-family: 'Montserrat-Bold';
+    background-color: #E75480;
+    color: #fff;
+    text-align: center;
+    padding: 12px;
+    width: 90%;
+    border-style: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+button img {
+    margin-right: 10px;
+}
+
+
+
+
+
+
 
 
 
