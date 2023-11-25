@@ -115,7 +115,14 @@ button img {
 }
 
 @media (max-width: 600px) {
-    
+    .card-container {
+        flex-direction: column;
+        width: 90%;
+    }
+
+    .image {
+        width: 100%;
+    }
 } 
 
 
