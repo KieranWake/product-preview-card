@@ -93,12 +93,9 @@ span {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 15px;
 }
 
 button {
-    display: flex;
-    justify-content: center;
     font-family: 'Montserrat-Bold';
     background-color: #E75480;
     color: #fff;
@@ -110,16 +107,20 @@ button {
     cursor: pointer;
 }
 
-button img {
-    margin-right: 10px;
+@media (max-width: 768px) {
+    
+    .card-container {
+        width: 90%;
+    }
+    .image {
+        width: 100%;
+    }
+    h1 {
+        margin-left: 0;
+    }
 }
 
-@media (max-width: 768px) {
-    body {
-      background-image: url('images/image-product-mobile.jpg');
-      background-size: cover;
-    }
-  }
+
 
 
 
