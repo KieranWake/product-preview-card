@@ -6,7 +6,7 @@
 }
 
 @font-face {
-    font-family: 'Fraunces';
+    font-family: 'Fraunces-Regular';
     src: url('fonts-2/Fraunces_72pt-Regular.ttf');
     font-style: bold;
     font-weight: bold;
@@ -18,6 +18,26 @@
     font-style: bold;
     font-weight: bold;
 }
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: hsl(30, 38%, 92%);
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
 
 
 
