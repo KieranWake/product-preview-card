@@ -1,4 +1,23 @@
+@font-face {
+    font-family: 'Montserrat-Bold';
+    src: url('fonts-1/Montserrat-Bold.ttf');
+    font-style: bold;
+    font-weight: bold;
+}
 
+@font-face {
+    font-family: 'Fraunces';
+    src: url('fonts-2/Fraunces_72pt-Regular.ttf');
+    font-style: bold;
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: 'Montserrat-Regular';
+    src: url('fonts-1/Montserrat-Regular.ttf');
+    font-style: bold;
+    font-weight: bold;
+}
 
 
 
