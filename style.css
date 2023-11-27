@@ -29,7 +29,12 @@ body {
     background-color: hsl(30, 38%, 92%);
 }
 
-
+.card-container {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    height: 75vh;
+}
 
 
 
