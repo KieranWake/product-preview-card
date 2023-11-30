@@ -79,7 +79,10 @@
 } 
 
 body {
-  background-color: hsl(30, 38%, 92%);
+  color: var(--clr-neutral-400);
+  background-color: var(--clr-secondary-200);
+  font-weight: var(--fw-regular);
+  font-size: 0.875rem; 
 }
 
 .article-container {
@@ -87,6 +90,11 @@ body {
   justify-content: center;
   align-items: center; 
   min-height: 75vh;
+}
+
+.product-image {
+  height: auto; 
+  width: 300px;
 }
 
 
