@@ -6,8 +6,8 @@
 }
 
 @font-face {
-    font-family: 'Fraunces-Regular';
-    src: url('fonts-2/Fraunces_72pt-Regular.ttf');
+    font-family: 'Fraunces-Bold';
+    src: url('fonts-2/Fraunces_72pt-Bold.ttf');
     font-style: bold;
     font-weight: bold;
 }
@@ -29,6 +29,10 @@
 
   --fw-regular: 500; 
   --fw-bold: 700;
+}
+
+h1, h2, h3 {
+  line-height: 1.1;
 }
 
 /*
@@ -95,10 +99,34 @@ body {
 }
 
 .article-container {
+  --content-padding: 1rem;
+  --content-spacing: 0.5rem;
+
   background-color: var(--clr-neutral-100);
-  border-radius: 2rem;
+  border-radius: 0.5rem;
   overflow: hidden;
 }
+
+.product-content {
+  display: grid;
+  border: 2px solid red;
+  padding: var(--content-padding);
+  gap: var(--content-spacing);
+}
+
+.product-category {
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  font-family: 'Montserrat-Regular';
+}
+
+.product-title {
+  font-size: 2rem;
+  font-family: 'Fraunces-Bold';
+  color: var(--clr-neutral-900);
+}
+
+
 
 
 
