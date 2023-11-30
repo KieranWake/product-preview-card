@@ -83,18 +83,15 @@ body {
   background-color: var(--clr-secondary-200);
   font-weight: var(--fw-regular);
   font-size: 0.875rem; 
+  display: grid;
+  place-content: center; 
+  margin: 1rem;
 }
 
-.article-container {
-  display: flex; 
-  justify-content: center;
-  align-items: center; 
-  min-height: 75vh;
-}
-
-.product-image {
-  height: auto; 
-  width: 300px;
+.flex-group {
+  display: flex;
+  gap: 1rem; 
+  flex-wrap: wrap; 
 }
 
 
