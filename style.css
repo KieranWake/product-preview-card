@@ -32,7 +32,7 @@
 }
 
 h1, h2, h3 {
-  line-height: 1.1;
+  line-height: 1;
 }
 
 /*
@@ -53,7 +53,7 @@ h1, h2, h3 {
     4. Improve text rendering
   */
   body {
-    line-height: 1.5;
+    line-height: 1.7;
     -webkit-font-smoothing: antialiased;
   }
   /*
@@ -115,6 +115,7 @@ body {
 }
 
 .product-category {
+  font-size: 0.8125rem;
   text-transform: uppercase;
   letter-spacing: 5px;
   font-family: 'Montserrat-Regular';
