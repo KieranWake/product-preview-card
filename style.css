@@ -28,6 +28,9 @@
 body {
   background-color: hsl(30, 38%, 92%);
   min-height: 100vh; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .article-container {
@@ -48,8 +51,8 @@ body {
   object-fit: cover;
   border-top-right-radius: 10px;
   border-bottom-left-radius: 10px;
-
 }
+
 
 
 
