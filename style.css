@@ -14,8 +14,8 @@
 }
 
 @font-face {
-    font-family: 'Montserrat-Light';
-    src: url('fonts-1/Montserrat-Light.ttf');
+    font-family: 'Montserrat-Regular';
+    src: url('fonts-1/Montserrat-Regular.ttf');
     font-style: bold;
     font-weight: bold;
 }
@@ -37,7 +37,7 @@ body {
 .article-container {
   border-radius: .5rem;
   display: flex;
-  max-width: 475px;
+  max-width: 500px;
   max-height: 400px;
   background-color: white;
   margin: 0 1rem;
@@ -61,24 +61,29 @@ body {
 }
 
 .product-category {
-  font-family: 'Montserrat-Light';
+  font-family: 'Montserrat-Regular';
   font-weight: 500;
   font-style: bold;
-  font-size: 12px;
+  font-size: .5em;
   text-transform: uppercase;
   letter-spacing: .3em;
-  margin-bottom: 15px;
+  margin-bottom: 12px;
 }
 
 .product-title {
   font-family: 'Fraunces-Bold';
-  font-size: 1.5em;
+  font-size: 1.7em;
   margin-bottom: 2rem;
 }
 
-p {
-
+.product-description {
+  font-family: 'Montserrat-Regular';
+  font-size: .7em;
+  padding-bottom: 1.2rem;
+  line-height: 1.2rem;
+  font-weight: 800;
 }
+
 
 
 
