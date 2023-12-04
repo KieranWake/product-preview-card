@@ -37,7 +37,7 @@ body {
 .article-container {
   border-radius: .5rem;
   display: flex;
-  max-width: 666px;
+  max-width: 475px;
   max-height: 400px;
   background-color: white;
   margin: 0 1rem;
@@ -68,6 +68,16 @@ body {
   text-transform: uppercase;
   letter-spacing: .3em;
   margin-bottom: 15px;
+}
+
+.product-title {
+  font-family: 'Fraunces-Bold';
+  font-size: 1.5em;
+  margin-bottom: 2rem;
+}
+
+p {
+
 }
 
 
