@@ -125,7 +125,7 @@ body {
   box-shadow: 0 0 35px hsl(158, 36%, 37%), 0 0 50px hsl(158, 36%, 37%), 0 0 80px hsl(158, 36%, 37%);
 }
 
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 550px) {
   .article-container {
     margin-top: 1rem;
     margin-bottom: 1rem;
@@ -177,10 +177,6 @@ body {
     border-bottom-left-radius: 0px;
     border-bottom-right-radius: 0px;
   } 
-
-
-
-
 }
 
 
